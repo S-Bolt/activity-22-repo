@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <title>My Landing Page</title>
+</head>
+
+<body>
+  <header>
+    <nav class="text-right">
+      <ul>
+        <li> <a href="https://github.com/">Github</a></li>
+        <li> <a href="#">Portfolio</a></li>
+        <li> <a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="text-center">My New Website</h1>
+    <figure>
+      <img src="./assets/images/image-1.png" alt="Graphic with Coming Soon text">
+      <figcaption class="text-center">Welcome to my website!.</figcaption>
+    </figure>
+
+    <section>
+      <h2 class="text-center">Services Requested Poll</h2>
+
+      <form action="submit_poll.php" method="post">
+        <label for="service-volunter">
+          <input type="radio" name="service" id="service-volunteer" value="volunteer"> Volunteer
+        </label>
+    
+        <label for="service-professional services">
+          <input type="radio" name="service" id="service-professional service" value="professional service"> Professional Service
+        </label>
+    
+        <label for="service-group events">
+          <input type="radio" name="service" id="service-group events" value="group events"> Group events
+        </label>
+
+        <div class="text-center">
+          <button type="submit">Submit </button>
+        </div>
+      </form>
+      </section>
+cp
+    <section>
+      <h2 class="text-center">Prefered Region</h2>
+
+      <form action="submit_poll.php" method="post">
+        <label for="region-east-us">
+          <input type="radio" name="region" id="region-east-us" value="east us"> East US
+        </label>
+
+        <label for="region-east-us">
+          <input type="radio" name="region" id="region-west-us" value="west us"> West US
+        </label>
+
+        <label for="region-east-us">
+          <input type="radio" name="region" id="region-mexico" value="mexico"> Mexio
+        </label>
+
+        <label for="region-east-us">
+          <input type="radio" name="region" id="region-apac" value="apac"> APAC
+        </label>
+
+        <div class="text-center">
+          <button type="submit">Submit </button>
+        </div>
+      </form>
+    </section>
+
+    </section>
+    <section id="contact">
+      <h2 class="text-center">Contact Me</h2>
+      <form>
+        <ul>
+          <li>
+            <label class="text-right" for="name">Name:</label>
+            <input type="text" id="name" name="user-name">
+          </li>
+          <li>
+            <label class="text-right" for="email">Email:</label>
+            <input type="text" id="email" name="user-email">
+          </li>
+        </ul>
+        <div class="text-center">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="text-center">
+    © 2024 My New Website Productions 
+  </footer>
+    
+</body>
+</html>
